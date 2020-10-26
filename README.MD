@@ -1,8 +1,8 @@
 ## React Project Demo
 
-### Style
-- CSS-IN-JS
-
+### Major Styling Strategies In React
+- CSS and SCSS Stylesheets
+  - 直接使用CSS或者SCSS
 - CSS Modules
   - CSS Modules 是一种 CSS 规范，默认所有的 类名 、动画名都默认作用域当前模块。
   - 为什么要用？
@@ -21,3 +21,8 @@
     - [CSS Modules 用法教程](https://www.ruanyifeng.com/blog/2016/06/css_modules.html)
     - [CSS Modules 详解及 React 中实践](https://github.com/camsong/blog/issues/5)
 
+- styled components
+  - CSS-in-JS
+
+- 参考
+  -

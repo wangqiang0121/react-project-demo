@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import classnames from 'classnames';
 import LocalStyleTitle from './components/LocalTitle';
 // import GlobalStyleTitle from './components/GlobalTitle';
@@ -7,7 +6,7 @@ import LocalStyleTitle from './components/LocalTitle';
 import exampleStyles from './example.m.scss';
 import './example.scss';
 
-const App = () => {
+const Demo = () => {
   const [red, setRed] = useState(false);
   const [big, setBig] = useState(false);
 
@@ -39,4 +38,5 @@ const App = () => {
   )
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default Demo;
+
