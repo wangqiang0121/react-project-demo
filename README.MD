@@ -1,8 +1,14 @@
 ## React Project Demo
 
 ### Major Styling Strategies In React
+- React中编写样式要解决的问题
+  - 模块化
+  - 样式隔离
+
 - CSS and SCSS Stylesheets
   - 直接使用CSS或者SCSS
+  - BEM解决方案
+
 - CSS Modules
   - CSS Modules 是一种 CSS 规范，默认所有的 类名 、动画名都默认作用域当前模块。
   - 为什么要用？
@@ -23,6 +29,10 @@
 
 - styled components
   - CSS-in-JS
+  - https://styled-components.com/docs/basics
 
 - 参考
-  -
+  - [Styling Components In React](https://www.smashingmagazine.com/2020/05/styling-components-react/)
+  - [CSS 模块化系列文章](https://juejin.im/post/6844903620261969934)
+  - [Styled Components vs. CSS Stylesheets](https://getstream.io/blog/styled-components-vs-css-stylesheets/)
+  - [Moving from SCSS to styled-components: Advantages and caveats](https://blog.logrocket.com/moving-from-scss-to-styled-components-advantages-and-caveats/)
