@@ -1,3 +1,8 @@
+/* class 命名推荐 camelCase 小写驼峰 */
+.title {
+  color: rgb(141, 59, 59);
+}
+
 .red {
   color: red;
 }
@@ -12,5 +17,40 @@
   padding: 10px;
   :global(.child) {
     font-size: 26px;
+  }
+}
+
+
+$buttonBg: cadetblue;
+
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: $buttonBg;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+}
+
+.buttonOne {
+  composes: button;
+  color: #fff;
+}
+
+.buttonTwo {
+  composes: button;
+  color: #333;
+}
+
+.buttonThree {
+  composes: border from './utils.scss';
+  composes: buttonTwo;
+}
+
+.text {
+  color: #777;
+  font-weight: 24px;
+  &:hover {
+    color: #f60;
   }
 }
